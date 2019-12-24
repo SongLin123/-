@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2019-12-23 17:22:22
- * @LastEditTime : 2019-12-23 17:31:56
+ * @LastEditTime : 2019-12-24 13:35:07
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \-\microfronted.md
@@ -10,7 +10,7 @@
 
 # 微前端
 
-   因需要开发多个应用，单项目开发耦合性强开发不方便，多应用上架部署困难，故选择qiankun可以将多项目整合同一个应用，通过客户端访问【父应用--->子应用】的形式，实现一次上架多个项目的目的。
+   因需要开发多个应用，单项目开发耦合性强开发不方便，多应用上架部署困难，故选择qiankun(基于single-spa)可以将多项目整合同一个应用，通过客户端访问【父应用--->子应用】的形式，实现一次上架多个项目的目的。
    通过父应用-子应用的形式，可以实现，分离开发、独立部署、局部更新、中心化权限管理，用户在使用中只需接入和打开一个应用，即可获得所有功能。
    以此为基础选择了如下两种方案：
 
@@ -28,7 +28,7 @@
 ## 1. 设计思路
 微应用的示意图如下：
 
-![框架图](http://assets.processon.com/chart_image/5df6ed41e4b0c4255e9c3abf.png)
+![框架图](./5df6ed41e4b0c4255e9c3abf.png)
 ### 父应用-子应用
 需要开发多个应用，单项目开发耦合性强开发不方便，多应用上架部署困难。
 
@@ -78,7 +78,7 @@ Single-SPA 设计了一个基本的生命周期（虽然它没有统一管理）
 
 如果未来引入自动化测试部署的概念后，发布的流程会变成：
 
-![CI/CD](http://assets.processon.com/chart_image/5e007fd9e4b0250e8aea401a.png)
+![CI/CD](./5e007fd9e4b0250e8aea401a.png)
 
 
 

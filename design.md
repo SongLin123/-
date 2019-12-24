@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2019-12-16 10:30:23
- * @LastEditTime : 2019-12-23 17:26:41
+ * @LastEditTime : 2019-12-24 13:34:48
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \tiger-prawn-adfw\design.md
@@ -45,7 +45,7 @@
    
    钉钉进入应用逻辑如下：
 
-   ![钉钉进入应用](http://assets.processon.com/chart_image/5df6eedde4b06c8b0bad6914.png?_=1576467266449)
+   ![钉钉进入应用](./5df6eedde4b06c8b0bad6914.png)
 
    > 后期如果有只需调用一次的钉钉api接口，建议如上图由父应用操作。
 
